@@ -1,0 +1,49 @@
+{
+  "features": [
+    "aqi_lag_1",
+    "aqi_lag_2",
+    "aqi_lag_3",
+    "aqi_lag_6",
+    "aqi_lag_7",
+    "aqi_roll_mean_3",
+    "aqi_roll_mean_7",
+    "aqi_roll_std_7",
+    "aqi_roll_max_3",
+    "pm25_lag_1",
+    "pm25_lag_3",
+    "temp_c",
+    "humidity_pct",
+    "wind_speed_ms",
+    "precipitation_mm",
+    "wind_x",
+    "wind_y",
+    "heat_index",
+    "inversion_risk",
+    "dispersion_capacity",
+    "month_sin",
+    "month_cos",
+    "dow_sin",
+    "dow_cos",
+    "is_fog_season",
+    "is_weekend",
+    "is_ramadan"
+  ],
+  "label_classes": [
+    "Good",
+    "Hazardous",
+    "Moderate",
+    "Unhealthy",
+    "Unhealthy for Sensitive Groups",
+    "Very Unhealthy"
+  ],
+  "metrics": {
+    "lgbm_reg_mae": 55.67,
+    "lgbm_reg_rmse": 67.54,
+    "xgb_reg_mae": 53.46,
+    "xgb_reg_rmse": 66.86,
+    "lgbm_cls_f1": 0.3092
+  },
+  "train_size": 285,
+  "test_size": 72,
+  "best_model": "LightGBM"
+}
