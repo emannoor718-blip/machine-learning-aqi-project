@@ -45,12 +45,12 @@ uv add -r requirements.txt
 
 ### 2. Generate dataset
 ```bash
-python3 data/generate_dataset.py
+python data/generate_dataset.py
 ```
 
 ### 3. Train models
 ```bash
-python3 train_model.py
+python train_model.py
 ```
 
 ### 4. Run the API
